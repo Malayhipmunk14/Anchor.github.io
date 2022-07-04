@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&family=Trispace:wght@200&display=swap');
+body{
+   /* overflow: hidden; */
+}
+#maindiv{
+    background-color: rgb(252, 169, 169);
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    border-radius: 30px;
+    
+}
+img{
+    border-radius: 30px;
+    height: 250px;
+    padding: 8px;
+    position: relative;
+    top: 5px;
+    transition: transform, 0.5s;
+    transition-timing-function: ease-out;
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+img:hover{
+    transform: rotate(-5deg);
+    opacity: inherit;
+}
+
+#secdiv{
+    width: 250px;
+    background-color: rgb(84, 28, 175);
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    position: relative;
+    top: -10px;
+    border-radius: 30px;
+}
+#nddiv{
+    width: 250px;
+    background-color: rgb(37, 22, 22);
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    position: relative;
+    top: -10px;
+    border-radius: 30px;
+}
+#maindiv p{
+    font-family: 'Righteous';
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    transition-property: color;
+    color: white;
+    transition-duration: 0.7s;
+}
+#maindiv p:hover{
+    color: rgb(224, 252, 255);
+    cursor: pointer;
+}
+#secdiv p{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    transition-property: color;
+    transition-duration: 0.7s;
+}
+#secdiv p:hover{
+    color: thistle;
+    cursor: pointer;
+}
+#nddiv p{
+    font-family: 'Righteous';
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    transition-property: color;
+    transition-duration: 0.7s;
+}
+#nddiv p:hover{
+    color: thistle;
+    cursor: pointer;
+}
+
+
+div h3{
+    font-size: 40px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    text-align: center;
+}
+div h3:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px){
+    body{
+        
+    }
+    #maindiv{
+        background-color: rgb(252, 169, 169);
+        width: 270px;
+        height: 400px;
+        margin: 40px;
+        border-radius: 30px;
+        
+    }
+    #nft-main-div{
+        position: relative;
+        left: 26px;
+    }
+    div h3{
+        font-size: 40px;
+        color: black;
+        font-family: 'Righteous', cursive;
+        /* border: 1px solid red; */
+        display: inline-block;
+        position: relative;
+        left: 75px;
+        width: 250px;
+        text-align: center;
+    }
+}
